@@ -1,0 +1,93 @@
+div.DT
+{
+    border-left: groove 1px;
+    border-top: groove 1px;
+    border-right: groove 1px;
+    border-bottom: groove 1px;
+    vertical-align: middle;
+    background-color: White;
+}
+
+div.DVMain
+{
+    position: absolute;
+    border-right: groove 1px #5b5c71;
+    border-top: groove 1px #5b5c71;
+    display: none;
+    margin: 0px;
+    overflow: auto;
+    border-left: groove 1px #5b5c71;
+    width: 96%;
+    border-bottom: groove 1px #5b5c71;
+    height: auto;
+    background-color: White;
+    z-index: 100;
+}
+
+IMG.DDA
+{
+    vertical-align: middle;
+    cursor: hand;
+    height: 18px;
+    width: 4%;
+    border: none;
+}
+
+#DVLI
+{
+    width: auto;
+    background-color: transparent;
+}
+#DVLI:hover
+{
+    width: auto;
+    background-color: #0390d8;
+}
+.LI
+{
+    width: auto;
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+}
+.LI:Hover
+{
+    width: auto;
+    background-color: #D4D0C8;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bolder;
+}
+input.MSTBM
+{
+    border: none 1px;
+    height: 30px;
+    width: 94%;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+input.MSTBM span
+{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    width: 175px;
+    padding: 5px;
+    z-index: 100;
+    background: #000;
+    color: #fff;
+    -moz-border-radius: 5px; /* this works only in camino/firefox */
+    -webkit-border-radius: 5px; /* this is just for Safari */
+}
+input.MSTBM:hover span
+{
+    display: block;
+}
+label.LIL
+{
+    font-size: 12px;
+    color: Black;
+}

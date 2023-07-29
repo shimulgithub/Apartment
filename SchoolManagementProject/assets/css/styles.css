@@ -1,0 +1,316 @@
+/* custom css */
+
+.grid-header
+{
+    background-color: #428bca;
+color: #FFF;
+font-size: 14px;
+font-weight: bold;
+line-height: 35px;
+padding-left: 12px;
+margin-bottom: 0px;
+}
+
+
+.grid_hscroll
+{
+    overflow: auto;
+    height: 350px; /*max-height: 350px; 
+    background-color: #fff;*/
+}
+.grid_hscroll_1600
+{
+    overflow: auto;
+    height: 1600px; /*max-height: 100px; 
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_600
+{
+   /* overflow: auto;*/
+    height: 600px; /*max-height: 100px; 
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_500
+{
+    /*overflow: auto;*/
+    height: 500px; /*max-height: 100px; 
+    background-color: #fff;*/
+     width: 100%;
+}
+.grid_hscroll_400
+{
+    overflow: auto;
+    height: 400px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_436
+{
+     /*overflow: auto;*/
+    height: 436px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_390
+{
+     /*overflow: auto;*/
+    height: auto; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_378
+{
+    overflow: auto;
+    height: 378px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_345
+{
+    overflow: auto;
+    height: 345px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_350
+{
+    overflow: auto;
+    height: 350px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_150
+{
+    overflow: auto;
+    height: 150px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_190
+{
+    overflow: auto;
+    height: 190px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_170
+{
+    overflow: auto;
+    height: 170px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+
+.grid_hscroll_300
+{
+    /*overflow: auto;*/
+    height: 300px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_334
+{
+    overflow: auto;
+    height: 334px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_260
+{
+    overflow: auto;
+    height: 260px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_250
+{
+    overflow: auto;
+    height: 300px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_388
+{
+    overflow: auto;
+    height: 388px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_hscroll_342
+{
+    overflow: auto;
+    height: 305px; /*max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_heade_35
+{
+    overflow: auto;
+  /* height: 36px;  max-height: 100px;
+    background-color: #fff;*/
+    width: 100%;
+}
+.grid_headeRe_35
+{
+    overflow: auto;
+  /*  height: 36px; max-height: 100px;
+    background-color: #fff;*/
+     width: 98.3%;
+}
+.grid_hscroll_290
+{
+    overflow: auto;
+    height: 290px; /*max-height: 200px;
+    background-color: #fff;*/
+}
+.grid_hscroll_285
+{
+    overflow: auto;
+    height: 285px; /*max-height: 200px;
+    background-color: #fff;*/
+}
+.grid_hscroll_275
+{
+    overflow: auto;
+    height: 275px; /*max-height: 200px;
+    background-color: #fff;*/
+}
+.grid_hscroll_200
+{
+    overflow: auto;
+    height: 200px; /*max-height: 200px;
+    background-color: #fff;*/
+}
+.grid_hscroll_100
+{
+    overflow: auto;
+    height: 100px; /*max-height: 100px;
+    background-color: #fff;*/
+}
+.grid_hscroll_noheight
+{
+    overflow: auto;
+    background-color: #fff;
+}
+.title_right
+{
+    text-align: right;
+}
+.donotdisplay
+{
+    display: none;
+}
+.TextBoxRight
+{
+    text-align: right;
+}
+.numeric_TextBox
+{
+    text-align: right;
+}
+.ReqFieldCSS
+{
+    /*display: none;*/
+}
+.dd_margin
+{
+    padding-right: 4px;
+}
+/*============================== Advance Pop-up Search Section ======================================*/
+.searchSectionAd
+{
+    display: none;
+    margin: 0 25px; /*overflow: scroll;*/
+    width: 94%;
+    z-index: 2;
+}
+.searchSectionAd #toDate, .searchSectionAd #fromDate
+{
+    display: none;
+}
+.searchSectionAd #ui-datepicker-div
+{
+    z-index: 4;
+}
+.afterSearch
+{
+    background-color: #CFD3D6;
+    border: 2px outset gray;
+    margin: 0 25px; /*overflow: scroll;*/
+    position: absolute;
+    width: 90%;
+    z-index: 1;
+}
+.afterAdd
+{
+    background-color: #CFD3D6;
+    height: 200px;
+    margin: 0 25px;
+    overflow: scroll;
+    width: 95%;
+}
+th
+{
+    color: #4682b4;
+}
+.hiddenFields
+{
+    display: none;
+    height: 0;
+}
+.requiredCssManual, .requiredCss
+{
+    color: Red;
+}
+
+
+/*gridview
+.table table  tbody  tr  td a ,
+.table table  tbody  tr  td  span {
+position: relative;
+float: left;
+padding: 6px 12px;
+margin-left: -1px;
+line-height: 1.42857143;
+color: #337ab7;
+text-decoration: none;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+.table table > tbody > tr > td > span {
+z-index: 3;
+color: #fff;
+cursor: default;
+background-color: #337ab7;
+border-color: #337ab7;
+}
+
+.table table > tbody > tr > td:first-child > a,
+.table table > tbody > tr > td:first-child > span {
+margin-left: 0;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+}
+
+.table table > tbody > tr > td:last-child > a,
+.table table > tbody > tr > td:last-child > span {
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+
+.table table > tbody > tr > td > a:hover,
+.table   table > tbody > tr > td > span:hover,
+.table table > tbody > tr > td > a:focus,
+.table table > tbody > tr > td > span:focus {
+z-index: 2;
+color: #23527c;
+background-color: #eee;
+border-color: #ddd;
+}
+/*end gridview */ 
+
+
+

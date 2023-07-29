@@ -1,0 +1,6 @@
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\bin\Debug\SMP.BOL.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\bin\Debug\SMP.BOL.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\obj\Debug\SMP.BOL.csproj.CoreCompileInputs.cache
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\obj\Debug\SMP.BOL.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\obj\Debug\SMP.BOL.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.BOL\obj\Debug\SMP.BOL.csproj.AssemblyReference.cache

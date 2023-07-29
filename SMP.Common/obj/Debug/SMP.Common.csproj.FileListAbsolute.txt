@@ -1,0 +1,11 @@
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.Common.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.Common.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.DAL.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.BOL.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.DAL.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\bin\Debug\SMP.BOL.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\obj\Debug\SMP.Common.csproj.CoreCompileInputs.cache
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\obj\Debug\SMP.Common.csproj.CopyComplete
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\obj\Debug\SMP.Common.dll
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\obj\Debug\SMP.Common.pdb
+D:\SchoolManagementProject\SchoolManagementProject\SMP.Common\obj\Debug\SMP.Common.csproj.AssemblyReference.cache

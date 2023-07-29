@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1AE39FF-9F38-45B7-87C0-23F48FBB1167}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMP.BOL</RootNamespace>
+    <AssemblyName>SMP.BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting\ApproveLeaveBOL.cs" />
+    <Compile Include="Setting\AttendanceBOL.cs" />
+    <Compile Include="Setting\CollectFeesBOL.cs" />
+    <Compile Include="Setting\DepartmentBOL.cs" />
+    <Compile Include="Setting\DesignationBOL.cs" />
+    <Compile Include="Setting\DisableReasonBOL.cs" />
+    <Compile Include="Setting\ExamGroupBOL.cs" />
+    <Compile Include="Setting\ExpenseBOL.cs" />
+    <Compile Include="Setting\ExpenseHeadBOL.cs" />
+    <Compile Include="Setting\FeesDiscountBOL.cs" />
+    <Compile Include="Setting\FeesMasterBOL.cs" />
+    <Compile Include="Setting\FeesReminderBOL.cs" />
+    <Compile Include="Setting\FeesTypeBOL.cs" />
+    <Compile Include="Setting\IncomeBOL.cs" />
+    <Compile Include="Setting\IncomeHeadBOL.cs" />
+    <Compile Include="Setting\LeaveTypeBOL.cs" />
+    <Compile Include="Setting\MarkGradeEntryBOL.cs" />
+    <Compile Include="Setting\MenuHead.cs" />
+    <Compile Include="Setting\MenuPage.cs" />
+    <Compile Include="Setting\MenuPermission.cs" />
+    <Compile Include="Setting\StaffProfileBOL.cs" />
+    <Compile Include="Setting\StudentAdmissionBOL.cs" />
+    <Compile Include="Setting\StudentCategoryBOL.cs" />
+    <Compile Include="Setting\StudentHouseBOL.cs" />
+    <Compile Include="Setting\UserBOL.cs" />
+    <Compile Include="Setting\UserLoginHistoryBOL.cs" />
+    <Compile Include="Setting\UserWiseVarsionName_ListBOL.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
